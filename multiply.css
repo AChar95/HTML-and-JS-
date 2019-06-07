@@ -1,0 +1,23 @@
+.InputOne {
+    color: white;
+    background-color: red
+}
+.InputTwo {
+    color: black;
+    background-color: green;
+}
+body {
+    background-color: grey;
+}
+#GetValue {
+    color: black;
+    background-color: skyblue;
+}
+#DontClick {
+    color: whitesmoke;
+    background-color: red;
+}
+#PleaseDont {
+    color: gold;
+    background-color: black
+}

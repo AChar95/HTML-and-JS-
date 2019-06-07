@@ -1,0 +1,24 @@
+<html>
+<title>Superheroes</Title>
+<link rel="stylesheet" type="text/css" href="Superheroes.css"></link>
+
+<head></head>
+
+<body>
+    <div class=first>
+        <hl>Find your SuperHero</hl>
+        <p>Click the button below to see the superhero squad</p>
+        <button onclick="fetchData()">click me!</button>
+        <p></p>
+        <input type="text" oninput="setName(this)" id="check"> Hero name</input>
+        <button onclick="checkHero()" id="butCheck"> Find your hero </button>
+        <p> </p>
+        <button onclick="showSquad()" id="squad"> Show the Squad </button>
+        <button onclick="printMoleMan()"> print me </button>
+        <p id="main"> </p>
+        <table style="width:50%" id="tbody"> </table>
+        <Script src="Superheroes.js"></script>
+    </div>
+</body>
+
+</html>
